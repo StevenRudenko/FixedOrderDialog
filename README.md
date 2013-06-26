@@ -11,6 +11,12 @@ If you want to see one order on all devices nomatter of Android firmware version
 
 Please note that owner Activity should implement FixedOrderDialogFragment.FixedOrderDialogListener to be able restore dialog state on Activity re-creation.
 
+Screenshots
+-----------
+Left screenshot was made from Android 2.2 emulator and right one is from Nexus 4 device with Android 4.2.2.
+
+![Android 2.2][1]![Android 4.2][2]
+
 Examples
 =============
 
@@ -50,3 +56,7 @@ License
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+
+ [1]: http://imageshack.us/a/img811/1515/5hj.png
+ [2]: http://imageshack.us/a/img10/7060/rlk.png
