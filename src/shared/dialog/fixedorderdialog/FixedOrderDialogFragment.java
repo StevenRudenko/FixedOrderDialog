@@ -61,6 +61,11 @@ public class FixedOrderDialogFragment extends BaseDialogFragment<FixedOrderDialo
   }
 
   @Override
+  protected boolean isListenerOptional() {
+    return false;
+  }
+
+  @Override
   public Dialog onCreateDialog(Bundle savedInstanceState) {
     final Context context = getActivity();
 
