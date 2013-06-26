@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 Steven Rudenko
+  
+  Licensed under the Apache License, Version 2.0 (the \"License\");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+    http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an \"AS IS\" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+
+    <string name="app_name">FixedOrderDialog</string>
+    <string name="description"><b>FixedOrderDialog</b>\nAs far as you probably know there is difference in order of positive and negative buttons for AlertDialog on pre-ICS and post-ICS devices:
+\n\t- on devices prior to ICS, the button order (left to right) was POSITIVE - NEUTRAL - NEGATIVE.
+\n\t- on newer devices using ICS, the button order (left to right) is now NEGATIVE - NEUTRAL - POSITIVE.
+\n
+\nHowever the order is not guaranteed to be as listed above for post-ICS devices. Some manufactures ignore button order reversing.
+\n
+\nIf you want to see one dialog buttons order on all devices no matter of Android firmware version, you can use FixedOrderDialogFragment.</string>
+    <string name="demo">Show demo dialog</string>
+    <string name="link_to_sources">source code is here &#187;</string>
+    <string name="message">Action buttons order is fixed on any Android device.\nCheck some old and new devices to see results.</string>
+    <string name="left">Left</string>
+    <string name="center">Center</string>
+    <string name="right">Right</string>
+    <string name="left_button_clicked">Left button clicked!</string>
+    <string name="center_button_clicked">Center button clicked!</string>
+    <string name="right_button_clicked">Right button clicked!</string>
+
+</resources>
