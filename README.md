@@ -9,6 +9,21 @@ However the order is not guaranteed to be as listed above for post-ICS devices. 
 
 If you want to see one order on all devices nomatter of Android firmware version, you can use [FixedOrderDialogFragment](/src/shared/dialog/fixedorderdialog/FixedOrderDialogFragment.java).
 
+Examples
+=============
+
+Here is an example of dialog creation and showing:
+```java
+new FixedOrderDialogFragment.Builder()
+    .setLeftButtonText(R.string.left)
+    .setCenterButtonText(R.string.center)
+    .setRightButtonText(R.string.right)
+    .setDefaultButton(FixedOrderDialogFragment.BUTTON_RIGHT)
+    .setMessage(R.string.message)
+    .setTitle(R.string.app_name)
+    .create()
+.show(getSupportFragmentManager(), "DEMO");
+```
 
 -------------------------------------------------------------------------------
 
