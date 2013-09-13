@@ -33,6 +33,10 @@ new FixedOrderDialogFragment.Builder()
 .show(getSupportFragmentManager(), "DEMO");
 ```
 
+Binary
+======
+There is release made to provide binary to see how code works: https://github.com/StevenRudenko/FixedOrderDialog/releases/tag/v1.0
+
 -------------------------------------------------------------------------------
 
 Developed By
